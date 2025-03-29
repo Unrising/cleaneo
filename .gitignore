@@ -1,2 +1,45 @@
-.devcontainer
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
 
+# Environnements virtuels
+env/
+venv/
+.venv/
+
+# Configs d'éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.bak
+*.tmp
+~$*
+
+# Fichiers compilés
+*.exe
+*.dll
+*.so
+*.out
+
+# Base de données locale ou fichiers générés
+*.db
+*.sqlite
+
+# Assets bruts si non versionnés
+assets/icons/*.svg
+assets/icons/*.ai
+assets/fonts/
+
+# Fichiers de test ou debug
+test_output/
+debug.log
